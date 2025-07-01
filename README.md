@@ -73,32 +73,7 @@ Edit
 npx nodemon index.js
 5. Access the App
 Open your browser:
-
-arduino
-Copy
-Edit
 http://localhost:3000/
-🧑‍💻 Deployment (Render)
-Push this project to a GitHub repo.
-
-Go to Render > New Web Service
-
-Connect your repo and set:
-
-Build Command: npm install
-
-Start Command: node index.js or npm start
-
-Add environment variables if needed (e.g., MONGODB_URI)
-
-📦 Example .env File
-env
-Copy
-Edit
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/your-db
-SESSION_SECRET=your-secret-key
-Make sure to install and configure dotenv if using environment variables.
 
 📄 License
 This project is licensed under the MIT License.
@@ -107,17 +82,5 @@ This project is licensed under the MIT License.
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
 🧾 Author
-Developed by [Your Name or GitHub Username].
+Developed by [tejeswar-v].
 
-yaml
-Copy
-Edit
-
----
-
-Would you like me to:
-- Add a `.gitignore`?
-- Add `dotenv` support in your project?
-- Customize this with your GitHub repo or name?
-
-Just say the word!
